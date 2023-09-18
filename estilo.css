@@ -1,0 +1,42 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    background-color: rgb(69, 155, 155);
+
+}
+
+.titulo{
+    color: aquamarine;
+    padding: 10px;
+    justify-content: center;
+
+}
+.contenedor{
+    margin: 0px;
+    display: flex;
+    
+}
+img{
+  
+        width: 300px;
+        height: 300px;
+        background-image: url(./perfil.jpg);
+        background-size: cover;
+        border-radius: 50%;
+        margin: 0 auto;
+    }
+.informacion{
+    background-color: aquamarine;
+}
+
+h1{
+    font-size: 30px;
+}
+.contenido{
+    background-color: beige;
+}
+.contactarme{
+    display: flex;
+    background-color:rgb(69, 155, 155) ;
+}
