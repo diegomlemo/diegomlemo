@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>curriculum vitae</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bc3be47fe7.js" crossorigin="anonymous"></script>
+<body>
+    <header>
+        <div class="titulo">
+              <h1>Cristina García Fernández</h1>
+              <button id="boton" onclick="mostrar();">Redes sociales</button>
+              <div id="redes">
+              <button id="boton" onclick="ocultar();">Ocultar Redes</button>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+              </div>
+        <script src="cv.js"></script>
+        </div>
+    </header>
+    <section>
+        <div class="contenedor">
+             <div class="informacion">
+                <img src="imagenes/fotografia_curriculum_linkedin_corporativa_madrid_006.jpg" alt="foto perfil" height="320px" width="270px">
+                <h2>CONTACTO</h2>
+                <li>Telefono:</li>
+                <a href="telefonovontacto">(55)1234-5678</a>
+                <li>email</li>
+                <a href="mailto:cristina.garcia.fernandez@ejemplo.com"> cristina.garcia.fernandez@ejemplo.com</a>
+                <h2>HABILIDADES</h2>
+                <ul>
+                   <li>Liderazgo.</li>
+                   <li>Comunicacion asertiva.</li>
+                   <li>Gestion de archivos.</li>
+                   <li>Resolucion de problemas.</li>
+                   <li>Elaboracion de reportes.</li>
+                   <li>Trabajo en equipo.</li>
+                </ul>
+                <h2>IDIOMAS</h2>
+                <ul>
+                    <li>Ingles.</li>
+                    <li>Aleman.</li>
+                    <li>Español.</li>
+                </ul>
+                </div>
+                <div class="contenido">
+                <h2><i class="fa-solid fa-user"></i>  ACERCA DE MI</h2>
+                <p>Mi carrera profesional se ha desarrollado dentro del área de contabilidad. Me adapto fácilmente a nuevos procesos contables y herramientas informáticas. Soy una persona analítica y orientada a resultados.</p>
+                <h2><i class="fa-solid fa-graduation-cap"></i>  EDUCACION</h2>
+                <ul>
+                    <li>Licenciatura en Contabilidad</li>
+                    <li>diiploma en finanzas</li>
+                </ul>
+                <h2><i class="fa-solid fa-briefcase"></i>  EXPERIENCIA LABORAL</h2>
+                <h3>Contable</h3>
+                <p>Centralia S.A. ,Las Palmas </p>
+                <span class="historial">sep 2019-presente</span>
+                <ul>
+                    <li>Realización y supervisión de cierres contable.</li>
+                    <li>Ejecucion de pagos y cobros.</li>   
+                    <li>Conntrol de tesoreria.</li> 
+                    <li>Gestiones con entidades financieras.</li>
+                    <li>Reporting financiero.</li>
+                    <li>Apoyo en realizacion de presupuesto.</li>    
+                </ul>
+                <h3>Técnico Contable</h3>
+                <p>Industrias mayores, Las Palmas</p>
+                <span class="historial">sep 2017-sep 2019</span>
+                <ul>
+                    <li>Gestion de remesas bancarias y pago a proveedores.</li>
+                    <li>Introduccion de asientos contables.</li>   
+                    <li>Conciliaciones bancarias.</li> 
+                    <li>Facturacion y cierres fiscales.</li>
+                    <li>Analisis contable.</li>
+                </ul>    
+                <h3>Auxiliar Contable</h3>
+                <p>Asesoria Hermanos Ramirez, Las Palmas</p>
+                <span class="historial">jul 2014-sep 2017</span>
+                <ul>
+                    <li>Elaboracion y revision de facturas.</li>
+                    <li>Conciliaciones bancarias.</li>   
+                    <li>Asientos contables.</li> 
+                    <li>Confeccion de impuestos.</li>
+                    <li>Tramitacion de subvenciones.</li>
+                </ul>    
+                <h2><i class="fa-solid fa-pen-to-square"></i>  OBJETIVOS</h2>
+                <ul>
+                    <li>Ganarme un lugar en la vanguardia profesional del sector mediante mi esfuerzo, constancia y experiencia obtenida en trabajos previos.</li>
+                    <li>Continuar mi formación profesional en una empresa que valore mi trayectoria y me brinde las oportunidades necesarias para poner a prueba mis talentos y crecer aún más dentro de un conjunto profesional de excelencia.</li> 
+                    <li>Establecerme laboralmente en una organización competitiva, que me permita aportar mi experiencia y conocimientos a un equipo de trabajo consolidado.</li>
+                </ul>
+             </div>
+           </div>
+        </div>
+    </section>
+   
+    <footer class="contactarme">
+        <div class="contenedor">
+          <div>
+          <form>
+          <label for="nombrecotacto">nombre completo</label>
+          <input type="text" name="nombrecontacto" id="nombrecontacto" class="cajaFormulario" required="" placeholder="INGRESE SU NOMBRE">
+          <br>
+          <label for="email">email</label>
+          <input type="email" name="correoelectronico" id="correoelectronico" class="cajaFormulario" required="" placeholder="INGRESE SU EMAIL">
+          <br>
+          <label for="asunto">asunto</label>
+          <input type="text" name="asunto" id="asunto" class="cajaFormulario" required="" placeholder="INGRESE ASUNTO">
+          <br>
+          </div>
+          <div>
+          <textarea name="comentarios" id="comentarios" class="cajaFormulario" cols="50" rows="8" placeholder="Comentarios adicionales..."></textarea>
+          <br>
+          <input type="button" name="botonenviar" id="botonenviar" class="cajaFormulario" required="" placeholder="ENVIAR" value="ENVIAR">
+          </form>
+          </div>
+        </div>
+    </footer>
+</body>
+</html>
